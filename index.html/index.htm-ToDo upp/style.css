@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+body{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to bottom, #ea68ea 0%, #4538fa 100%); 
+}
+.wrapper{
+    margin: 120px auto;
+    max-width: 650px;
+    width: 100%;
+    background: #fff;
+    border-radius: 25px;
+    padding: 25px;
+  }
+
+  .wrapper header{
+      font-size: 30px;
+      font-weight: 600;
+  }
+  .wrapper .inputField{
+      display: flex;
+      height: 45px;
+      width: 105%;
+      margin: 20px 0;
+  }
+  .inputField input{
+      width: 85%;
+      height: 100%;
+      border: rgb(184, 181, 181);
+      font-size: 17px;
+      border-radius: 3px;
+      padding-left: 15px;
+  }
+  .inputField button{
+      width: 60px;
+      height: 100%;
+      border: none;
+      outline: none;
+      background: #64a1e6;
+      color: #fff;
+      font-size: 17px;
+      cursor: pointer;
+      border-radius: 5px;
+  }
+  
+.todoList li{
+    list-style: none;
+    height: 45px;
+    line-height: 45px;
+    position: relative;
+    background: #f2f2f2;
+    border-radius: 3px;
+    margin-bottom: 8px;
+    padding:0 15px;
+}
+.wrapper .footer{
+    display: flex;
+    width: 100%;
+    align-items: baseline;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.footer input{
+    border: none;
+    outline: none;
+    background: #1d498a;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 6px 10px;
+    right: 100px;
+}
+
+.wrapper .todoList{
+    max-height: 250px;
+    overflow-y: auto;
+}
+ .todoList li {
+     list-style: none;
+     height: 45px;
+     line-height: 45px;
+     position: relative;
+     background: #f2f2f2;
+     border-radius: 3px;
+     margin-bottom: 8px;
+     padding: 0 15px;
+     cursor: default;
+     overflow: hidden;
+ } 
+ .todoList li span{
+     position: absolute;
+     right: -45px;
+     color: black;
+     width: 45px;
+     text-align: center;
+     background: rgb(154, 222, 224);
+     border-radius: 0 3px 3px 0;
+     cursor: pointer;
+     transition: all 0.3s ease;
+ }
+ .todoList li:hover span{
+     right: 0px;
+ }
+ 
+
+ 
+
+    
+

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo app</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+          font-family: 'Brush Script MT', cursive;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper" id="myDIV">
+        <header>My To Do</header>
+        <div class="inputField">
+        <input type="text" placeholder="Add a new todo" id="myInput">
+        <span onclick="newElement()" class="addBtn">
+        <button>Add</button>
+        </span>
+    
+    </div>
+    <p>My To Do List</p>
+    <ul class="todoList" id="myUL">
+        <li>go to exhibition<span><img src="https://img.icons8.com/material-sharp/12/000000/delete-sign.png"/></span></li>
+        <li class="checked">meet Ann<span><img src="https://img.icons8.com/material-sharp/12/000000/delete-sign.png"/></span></li>
+        <li>read the book<span><img src="https://img.icons8.com/material-sharp/12/000000/delete-sign.png"/></span></li>
+        <li>write the homeworks<span><img src="https://img.icons8.com/material-sharp/12/000000/delete-sign.png"/></span></li>
+
+    </ul>
+    <div class="footer" >
+        <p style="color: white;">prabel</p>
+        <input type="button" value="Clear All" onclick="removeAll()">
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

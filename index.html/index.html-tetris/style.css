@@ -1,0 +1,33 @@
+
+  
+canvas {
+  margin-left: 220px;
+  margin-top: -900px;
+  background-color: rgb(144, 115, 150);
+  }
+ 
+#playpause {
+    width: 85px;
+    height: 30px;
+    margin-top: 0px;
+    margin-left: 100px;
+    cursor: pointer;
+    border-radius: 12px;
+    outline: none;
+    background: linear-gradient(to bottom, #0df734 0%, #195222 100%);
+  }
+.button:active {
+  transform: translateY(4px);
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: -60px;
+  margin-left: 70px;
+}
+nav ul li{
+  font-size: 39px;
+}
+
+
+  

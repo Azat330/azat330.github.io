@@ -1,0 +1,60 @@
+h1 {
+  color: rgb(34, 144, 247);
+  word-spacing: 15px;
+  font-size: 40px;
+}
+h4.rtl {
+  direction: rtl;
+}
+
+body {
+   background-image: url('startup-593336_640.jpg');
+   background-size: cover;
+   background-attachment: fixed;
+}
+
+b {
+  color: rgb(34, 144, 247);
+  
+}
+  
+ p {
+  
+  text-align-last: left;
+}
+.facebook {
+  background:url(https://img.icons8.com/color/48/000000/facebook-new.png) no-repeat left center; 
+  background-size: 25px;
+  display:inline-block;
+  vertical-align:bottom;
+  padding-left: 35px;
+}
+
+.linkedin {
+  background:url(https://img.icons8.com/color/48/000000/linkedin.png) no-repeat left center; 
+  background-size: 25px; 
+  display:inline-block;
+  vertical-align:bottom;
+  padding-left: 35px;
+}
+.gmail {
+  background:url(https://img.icons8.com/fluent/48/000000/gmail--v2.png) no-repeat left center; 
+  background-size: 25px; 
+  display:inline-block;
+  vertical-align:bottom;
+  padding-left: 35px;
+  font-size:14px;
+}
+.phone {
+  background:url(https://img.icons8.com/fluent/48/000000/phone.png) no-repeat left center; 
+  background-size: 25px; 
+  display:inline-block;
+  vertical-align:bottom;
+  padding-left: 35px;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+}
